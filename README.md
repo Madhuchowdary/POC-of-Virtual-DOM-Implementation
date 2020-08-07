@@ -5,4 +5,4 @@ Frameworks such as React and Vue use the virtual DOM concept to make more perfor
 
 In this POC one of technique to minimize the DOM updates is used with out using any library.
 
-Performance can be improved by updating all DOM elements in a single operation. Adding each element one at a time causes up to 21 reflows — one when the <ul> is appended, ten for each <li> and ten for the text. However, a single reflow can be implemented using a DOM fragment and building the nodes in memory first(virtual DOM)
+Performance can be improved by updating all DOM elements in a single operation. Adding each element one at a time causes up to twentyone reflows — one when the ul is appended, ten for each li and ten for the text. However, a single reflow can be implemented using a DOM fragment and building the nodes in memory first(virtual DOM)
